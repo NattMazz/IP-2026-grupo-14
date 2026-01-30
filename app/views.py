@@ -9,7 +9,7 @@ def index_page(request):
     return render(request, 'index.html')
 
 def home(request):
-    """
+    """:D
     Vista principal que muestra la galería de personajes de Los Simpsons.
     
     Esta función debe obtener el listado de imágenes desde la capa de servicios
